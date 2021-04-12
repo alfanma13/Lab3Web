@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas HTML Lanjutan</title>
+</head>
+<body>
+   <header>
+       <h1> Membuat Form dengan Dropdown dan Listbox</h1>
+   </header>
+    <form action="proses.php" method="POST">
+        <p> Pilihan Menu Makanan</p>
+        <select name="nama_menu" size="5" multiple="multiple">
+            <option value="1">Megono</option>
+            <option value="1">Mie Ongklok</option>
+            <option value="1">Tempe Kemul</option>
+            <option value="1">Bakso</option>
+            <option value="1">Mie Ayam</option>
+        </select>
+        <br>
+        <br>
+        <select name="nama_menu">
+            <option value="" selected="selected">Pilih Menu</option>
+            <option value="megono">Megono</option>
+            <option value="ongklok">Mie Ongklok</option>
+            <option value="kemul">Tempe Kemul</option>
+            <option value="bakso">Bakso</option>
+            <option value="mayam">Mie Ayam</option>
+        </select>
+    </form>
+    <br>
+    <button style="background-color: rgb(140, 212, 22);"><a href="">Kirim</a></button>
+</body>
+</html>
